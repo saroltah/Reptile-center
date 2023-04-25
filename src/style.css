@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+  color: white;
+}
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("images/leaves.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  text-align: center;
+  color: white;
+  padding: 100px 40px;
+  margin: 0 auto;
+  width: 1200px;
+}
+h1 {
+  font-size: 80px;
+}
