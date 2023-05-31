@@ -19,6 +19,14 @@
     rgb(131, 86, 228) 85%,
     rgb(89, 35, 215) 93%
   );
+  --gradient-black: linear-gradient(
+    143deg,
+    rgb(7, 7, 7) 0%,
+    rgb(7, 7, 7) 34%,
+    rgb(23, 2, 58) 51%,
+    rgb(26, 3, 5) 76%,
+    rgb(1, 44, 2) 100%
+  );
 
   --title-font: "Sofadi One", cursive;
   --text-font: "Barlow Semi Condensed", sans-serif;
@@ -28,19 +36,21 @@ html {
 }
 body {
   font-family: var(--text-font);
+  color: white;
+  background: var(--gradient-black);
 }
 .title {
   font-family: var(--title-font);
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("images/forestSteam.jpg");
+    url("images/lizard.jpg");
   background-size: cover;
-  background-repeat: no repeat;
+  background-repeat: no-repeat;
   height: 700px;
   text-align: center;
   color: white;
-  padding: 150px 0px;
+  padding: 200px 0px;
 }
 
 header h1 {
@@ -65,9 +75,7 @@ header a {
 header a:hover {
   font-size: 30px;
 }
-header .portre {
-  height: 100px;
-  border-radius: 100%;
-  margin-bottom: 30px;
-  border: 1px solid var(--secondary-green);
+.navbar {
+  color: white;
+  background: var(--gradient-black);
 }
