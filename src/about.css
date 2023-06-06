@@ -32,7 +32,7 @@
   --text-font: "Barlow Semi Condensed", sans-serif;
 }
 
-.grid {
+.grid-center {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
@@ -74,4 +74,42 @@
   font-size: 60px;
   text-align: center;
   margin-bottom: 40px;
+}
+
+.grid-development {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.grid-development img {
+  max-width: 200px;
+}
+.gallery .title {
+  font-size: 60px;
+  text-align: center;
+  margin: 40px 0px;
+}
+.gallery p {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+.grid-gallery {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.grid-gallery img {
+  max-width: 200px;
+  border-radius: 10%;
 }

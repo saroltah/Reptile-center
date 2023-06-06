@@ -51,6 +51,7 @@ header {
   text-align: center;
   color: white;
   padding: 200px 0px;
+  border-radius: 0% 0% 10% 10%;
 }
 
 header h1 {
