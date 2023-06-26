@@ -123,6 +123,7 @@
   line-height: 40px;
   color: var(--pink-color);
   border: 1px solid var(--pink-color);
+  background: var(--gradient-black);
 }
 .grid-shop {
   width: 100%;
@@ -144,4 +145,7 @@
   max-width: 150px;
   border-radius: 10%;
   border: 3px solid var(--pink-color);
+}
+.shop p {
+  text-align: justify;
 }
