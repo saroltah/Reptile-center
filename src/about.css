@@ -174,5 +174,8 @@
   letter-spacing: 1px;
 }
 .tickets .title {
-  margin: 100px 0px 80px 0px;
+  padding: 100px 0px 50px 0px;
+}
+.gallery .title {
+  padding-top: 80px;
 }
