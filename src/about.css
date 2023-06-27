@@ -89,7 +89,8 @@
   max-width: 200px;
 }
 .gallery .title,
-.shop .title {
+.shop .title,
+.tickets .title {
   font-size: 60px;
   text-align: center;
   margin: 40px 0px;
@@ -148,4 +149,30 @@
 }
 .shop p {
   text-align: justify;
+}
+.tickets {
+  max-width: 600px;
+  margin: 0px auto;
+  font-size: 25px;
+  line-height: 50px;
+}
+.adults,
+.groups {
+  color: var(--light-green);
+}
+.children,
+.guided {
+  color: var(--pink-color);
+}
+.grid-ticket {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 40px;
+  margin: 30px auto;
+}
+.guided {
+  letter-spacing: 1px;
+}
+.tickets .title {
+  margin-top: 100px;
 }
