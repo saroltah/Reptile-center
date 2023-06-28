@@ -179,3 +179,13 @@
 .gallery .title {
   padding-top: 80px;
 }
+.grid-opening {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+  margin: 30px auto;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid var(--secondary-green);
+  padding: 30px;
+}
