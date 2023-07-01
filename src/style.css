@@ -91,7 +91,7 @@ header a:hover {
   font-family: var(--title-font);
   border-radius: 30%;
 }
-navbar-toggler-icon {
+.navbar-toggler-icon {
   color: white;
 }
 .menuBrand {
@@ -105,5 +105,18 @@ navbar-toggler-icon {
   padding: 45px;
 }
 footer {
-  font-size: 10px;
+  font-size: 15px;
+  width: 100%;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.grid-footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.map,
+.info,
+.facebook {
+  width: 100%;
 }
