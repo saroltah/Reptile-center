@@ -106,9 +106,8 @@ header a:hover {
 }
 footer {
   font-size: 15px;
-  width: 100%;
-  margin-left: 0px;
-  padding-left: 0px;
+  width: 200%;
+  margin-left: -250px;
 }
 .grid-footer {
   display: grid;
