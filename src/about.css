@@ -90,7 +90,8 @@
 }
 .gallery .title,
 .shop .title,
-.tickets .title {
+.tickets .title,
+.opening .title {
   font-size: 60px;
   text-align: center;
   margin: 40px 0px;
@@ -115,6 +116,9 @@
 .grid-gallery img {
   max-width: 200px;
   border-radius: 10%;
+}
+.gallery .title {
+  padding-top: 80px;
 }
 .shop {
   max-width: 80%;
@@ -150,7 +154,8 @@
 .shop p {
   text-align: justify;
 }
-.tickets {
+.tickets,
+.opening {
   max-width: 600px;
   margin: 0px auto;
   font-size: 25px;
@@ -173,12 +178,11 @@
 .guided {
   letter-spacing: 1px;
 }
-.tickets .title {
+.tickets .title,
+.opening .title {
   padding: 100px 0px 50px 0px;
 }
-.gallery .title {
-  padding-top: 80px;
-}
+
 .grid-opening {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
