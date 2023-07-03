@@ -95,6 +95,7 @@
   font-size: 60px;
   text-align: center;
   margin: 40px 0px;
+  text-shadow: 5px 5px 10px rgba(229, 16, 245, 1);
 }
 .gallery p,
 .shop p {
@@ -127,7 +128,7 @@
   border-radius: 10%;
   line-height: 40px;
   color: var(--pink-color);
-  border: 1px solid var(--pink-color);
+  border: 2px solid var(--pink-color);
   background: var(--gradient-black);
 }
 .grid-shop {
@@ -192,4 +193,13 @@
   justify-content: center;
   border: 1px solid var(--secondary-green);
   padding: 30px;
+  box-shadow: 2px 2px 2px rgba(116, 245, 16, 1);
+}
+.gallery img:hover,
+.shop img:hover,
+.grid-development img:hover {
+  scale: 2;
+}
+.info {
+  color: var(--pink-color);
 }
